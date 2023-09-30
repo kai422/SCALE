@@ -15,7 +15,9 @@ Moreover, we propose SCALE, a simple yet effective post-hoc network enhancement 
 </p>
 
 ### Environment and dataset 
+```
 pip install -e .
+```
 
 Prepare Dataset and pretrained network following [OpenOOD](https://github.com/Jingkang50/OpenOOD) official instruction.
 You need to prepare following dataset:
