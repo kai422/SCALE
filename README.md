@@ -1,3 +1,4 @@
+# Scaling for Training Time and Post-hoc Out-of-distribution Detection Enhancement.
 This is an offical PyTorch implementation of 
 
 
@@ -13,7 +14,7 @@ Moreover, we propose SCALE, a simple yet effective post-hoc network enhancement 
   <img width="800" src="method.png">
 </p>
 
-# Environment and dataset 
+### Environment and dataset 
 pip install -e .
 
 Prepare Dataset and pretrained network following [OpenOOD](https://github.com/Jingkang50/OpenOOD) official instruction.
@@ -24,7 +25,7 @@ python ./scripts/download.py \
 	--save_dir './data' './results' \
 	--dataset_mode 'benchmark'
 ```
-# SCALE as post hoc model enhancement.
+### SCALE as post-hoc model enhancement.
 
 ```
 python scripts/eval_ood_imagenet.py \
@@ -35,7 +36,7 @@ python scripts/eval_ood_imagenet.py \
 
 ```
 
-# ISH as training time model enhancement.
+### ISH as training time model enhancement.
 perform inference on ISH model:
 ```
 python scripts/eval_ood_imagenet.py \
