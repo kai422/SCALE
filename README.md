@@ -8,7 +8,7 @@ Kai Xu, Rongyu Chen, Gianni Franchi, Angela Yao
 
 The capacity of a modern deep learning system to determine if a sample falls within its realm of knowledge is fundamental and important.
 In this paper, we offer insights and analyses of recent state-of-the-art out-of-distribution (OOD) detection methods - extremely simple activation shaping (ASH). We demonstrate that activation pruning has a detrimental effect on OOD detection, while activation scaling enhances it.
-Moreover, we propose SCALE, a simple yet effective post-hoc network enhancement method for OOD detection, which attains state-of-the-art OOD detection performance without compromising in-distribution (ID) accuracy. By integrating scaling concepts into the training process to capture a sample's ID characteristics, we propose \textbf{I}ntermediate Tensor \textbf{SH}aping (ISH), a lightweight method for training time OOD detection enhancement. We achieve AUROC scores of +1.85\% for near-OOD and +0.74\% for far-OOD datasets on the OpenOOD v1.5 ImageNet-1K benchmark.
+Moreover, we propose SCALE, a simple yet effective post-hoc network enhancement method for OOD detection, which attains state-of-the-art OOD detection performance without compromising in-distribution (ID) accuracy. By integrating scaling concepts into the training process to capture a sample's ID characteristics, we propose Intermediate Tensor SHaping (ISH), a lightweight method for training time OOD detection enhancement. We achieve AUROC scores of +1.85\% for near-OOD and +0.74\% for far-OOD datasets on the OpenOOD v1.5 ImageNet-1K benchmark.
 
 
 ### Environment and dataset 
