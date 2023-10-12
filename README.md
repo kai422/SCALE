@@ -3,7 +3,7 @@ This is an offical PyTorch implementation of
 
 
 >**Scaling for Training Time and Post-hoc Out-of-distribution Detection Enhancement.**  
-[[arXiv]]()       
+[[arXiv]](https://arxiv.org/pdf/2310.00227.pdf)       
 Kai Xu, Rongyu Chen, Gianni Franchi, Angela Yao 
 
 The capacity of a modern deep learning system to determine if a sample falls within its realm of knowledge is fundamental and important.
