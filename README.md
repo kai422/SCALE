@@ -1,4 +1,4 @@
-# [ICLR 2024] Scaling for Training Time and Post-hoc Out-of-distribution Detection Enhancement
+# Scaling for Training Time and Post-hoc Out-of-distribution Detection Enhancement
 This is an offical PyTorch implementation of 
 
 
