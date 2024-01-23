@@ -13,7 +13,7 @@ Moreover, we propose SCALE, a simple yet effective post-hoc network enhancement 
 
 ### Environment and dataset 
 ```
-pip install -e .
+conda env create -f environment.yml
 ```
 
 Prepare Dataset and pretrained network following [OpenOOD](https://github.com/Jingkang50/OpenOOD) official instruction.
