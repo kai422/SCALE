@@ -47,13 +47,15 @@ python scripts/eval_ood_imagenet.py \
 perform inference on ISH model:
 ```
 python scripts/eval_ood_imagenet.py \
-  --ckpt-path results/ish/last.ckpt \
+  --ckpt-path results/ish/ish_last.ckpt \
   --arch resnet50 \
   --postprocessor scale \
   --save-score --save-csv
 
 ```
 
+You can download the model file from [Google Drive](https://drive.google.com/file/d/1EQimcdbJsKdU2uw4-BrqZO6tu4kXKtbG/view?usp=drive_link).
+We will release the training code soon.
 
 ## Acknowledgment
 
