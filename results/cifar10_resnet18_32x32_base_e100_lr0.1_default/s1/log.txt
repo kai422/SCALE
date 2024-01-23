@@ -1,0 +1,207 @@
+Start training...
+
+Epoch 001 | Time    19s | Train Loss 1.6181 | Val Loss 1.638 | Val Acc 38.80
+
+Epoch 002 | Time    37s | Train Loss 1.3824 | Val Loss 1.417 | Val Acc 47.50
+
+Epoch 003 | Time    56s | Train Loss 1.2520 | Val Loss 1.209 | Val Acc 55.20
+
+Epoch 004 | Time    74s | Train Loss 1.0488 | Val Loss 1.156 | Val Acc 59.90
+
+Epoch 005 | Time    93s | Train Loss 0.9109 | Val Loss 1.092 | Val Acc 62.40
+
+Epoch 006 | Time   112s | Train Loss 0.8100 | Val Loss 0.885 | Val Acc 68.80
+
+Epoch 007 | Time   130s | Train Loss 0.7740 | Val Loss 0.952 | Val Acc 67.80
+
+Epoch 008 | Time   149s | Train Loss 0.6354 | Val Loss 0.790 | Val Acc 72.70
+
+Epoch 009 | Time   168s | Train Loss 0.6209 | Val Loss 0.775 | Val Acc 74.10
+
+Epoch 010 | Time   187s | Train Loss 0.6216 | Val Loss 0.687 | Val Acc 75.90
+
+Epoch 011 | Time   205s | Train Loss 0.5527 | Val Loss 0.664 | Val Acc 76.50
+
+Epoch 012 | Time   224s | Train Loss 0.5443 | Val Loss 0.640 | Val Acc 78.40
+
+Epoch 013 | Time   242s | Train Loss 0.4958 | Val Loss 0.694 | Val Acc 77.20
+
+Epoch 014 | Time   261s | Train Loss 0.4812 | Val Loss 0.584 | Val Acc 79.50
+
+Epoch 015 | Time   279s | Train Loss 0.4331 | Val Loss 0.633 | Val Acc 79.30
+
+Epoch 016 | Time   297s | Train Loss 0.5311 | Val Loss 0.634 | Val Acc 79.00
+
+Epoch 017 | Time   316s | Train Loss 0.4094 | Val Loss 0.535 | Val Acc 81.30
+
+Epoch 018 | Time   334s | Train Loss 0.4111 | Val Loss 0.700 | Val Acc 78.00
+
+Epoch 019 | Time   353s | Train Loss 0.4561 | Val Loss 0.526 | Val Acc 81.30
+
+Epoch 020 | Time   371s | Train Loss 0.4005 | Val Loss 0.513 | Val Acc 81.20
+
+Epoch 021 | Time   390s | Train Loss 0.4411 | Val Loss 0.501 | Val Acc 82.70
+
+Epoch 022 | Time   409s | Train Loss 0.4085 | Val Loss 0.504 | Val Acc 83.10
+
+Epoch 023 | Time   427s | Train Loss 0.3357 | Val Loss 0.522 | Val Acc 81.80
+
+Epoch 024 | Time   445s | Train Loss 0.3858 | Val Loss 0.668 | Val Acc 78.30
+
+Epoch 025 | Time   464s | Train Loss 0.4027 | Val Loss 0.525 | Val Acc 81.50
+
+Epoch 026 | Time   482s | Train Loss 0.3341 | Val Loss 0.505 | Val Acc 82.80
+
+Epoch 027 | Time   501s | Train Loss 0.3662 | Val Loss 0.456 | Val Acc 84.40
+
+Epoch 028 | Time   519s | Train Loss 0.3521 | Val Loss 0.477 | Val Acc 84.40
+
+Epoch 029 | Time   538s | Train Loss 0.3685 | Val Loss 0.482 | Val Acc 84.20
+
+Epoch 030 | Time   556s | Train Loss 0.3399 | Val Loss 0.444 | Val Acc 85.90
+
+Epoch 031 | Time   575s | Train Loss 0.3805 | Val Loss 0.695 | Val Acc 78.80
+
+Epoch 032 | Time   593s | Train Loss 0.2893 | Val Loss 0.438 | Val Acc 85.40
+
+Epoch 033 | Time   612s | Train Loss 0.3690 | Val Loss 0.414 | Val Acc 86.10
+
+Epoch 034 | Time   630s | Train Loss 0.3011 | Val Loss 0.470 | Val Acc 85.10
+
+Epoch 035 | Time   649s | Train Loss 0.2994 | Val Loss 0.469 | Val Acc 84.90
+
+Epoch 036 | Time   667s | Train Loss 0.3060 | Val Loss 0.427 | Val Acc 85.90
+
+Epoch 037 | Time   686s | Train Loss 0.3036 | Val Loss 0.396 | Val Acc 86.10
+
+Epoch 038 | Time   704s | Train Loss 0.3049 | Val Loss 0.465 | Val Acc 84.70
+
+Epoch 039 | Time   723s | Train Loss 0.2581 | Val Loss 0.479 | Val Acc 84.40
+
+Epoch 040 | Time   742s | Train Loss 0.2863 | Val Loss 0.383 | Val Acc 86.60
+
+Epoch 041 | Time   760s | Train Loss 0.2657 | Val Loss 0.458 | Val Acc 83.70
+
+Epoch 042 | Time   779s | Train Loss 0.2903 | Val Loss 0.409 | Val Acc 85.80
+
+Epoch 043 | Time   797s | Train Loss 0.2738 | Val Loss 0.465 | Val Acc 85.60
+
+Epoch 044 | Time   816s | Train Loss 0.2518 | Val Loss 0.463 | Val Acc 84.40
+
+Epoch 045 | Time   835s | Train Loss 0.2918 | Val Loss 0.370 | Val Acc 87.40
+
+Epoch 046 | Time   854s | Train Loss 0.2915 | Val Loss 0.351 | Val Acc 88.00
+
+Epoch 047 | Time   873s | Train Loss 0.2807 | Val Loss 0.392 | Val Acc 86.80
+
+Epoch 048 | Time   892s | Train Loss 0.2453 | Val Loss 0.380 | Val Acc 86.40
+
+Epoch 049 | Time   910s | Train Loss 0.2509 | Val Loss 0.433 | Val Acc 86.50
+
+Epoch 050 | Time   929s | Train Loss 0.2820 | Val Loss 0.368 | Val Acc 88.30
+
+Epoch 051 | Time   948s | Train Loss 0.1770 | Val Loss 0.383 | Val Acc 87.70
+
+Epoch 052 | Time   967s | Train Loss 0.2102 | Val Loss 0.391 | Val Acc 86.80
+
+Epoch 053 | Time   985s | Train Loss 0.1951 | Val Loss 0.407 | Val Acc 87.00
+
+Epoch 054 | Time  1004s | Train Loss 0.2059 | Val Loss 0.395 | Val Acc 87.90
+
+Epoch 055 | Time  1023s | Train Loss 0.1631 | Val Loss 0.370 | Val Acc 88.30
+
+Epoch 056 | Time  1042s | Train Loss 0.1422 | Val Loss 0.319 | Val Acc 88.90
+
+Epoch 057 | Time  1060s | Train Loss 0.2025 | Val Loss 0.353 | Val Acc 89.50
+
+Epoch 058 | Time  1079s | Train Loss 0.1822 | Val Loss 0.371 | Val Acc 88.60
+
+Epoch 059 | Time  1098s | Train Loss 0.1561 | Val Loss 0.328 | Val Acc 89.10
+
+Epoch 060 | Time  1117s | Train Loss 0.1371 | Val Loss 0.325 | Val Acc 89.60
+
+Epoch 061 | Time  1135s | Train Loss 0.1547 | Val Loss 0.316 | Val Acc 90.60
+
+Epoch 062 | Time  1154s | Train Loss 0.1486 | Val Loss 0.338 | Val Acc 90.10
+
+Epoch 063 | Time  1173s | Train Loss 0.1719 | Val Loss 0.296 | Val Acc 90.50
+
+Epoch 064 | Time  1191s | Train Loss 0.1025 | Val Loss 0.342 | Val Acc 89.90
+
+Epoch 065 | Time  1210s | Train Loss 0.1112 | Val Loss 0.323 | Val Acc 89.90
+
+Epoch 066 | Time  1229s | Train Loss 0.0932 | Val Loss 0.301 | Val Acc 90.10
+
+Epoch 067 | Time  1247s | Train Loss 0.1120 | Val Loss 0.339 | Val Acc 89.10
+
+Epoch 068 | Time  1266s | Train Loss 0.1109 | Val Loss 0.296 | Val Acc 90.80
+
+Epoch 069 | Time  1285s | Train Loss 0.1065 | Val Loss 0.345 | Val Acc 89.30
+
+Epoch 070 | Time  1304s | Train Loss 0.1165 | Val Loss 0.279 | Val Acc 90.50
+
+Epoch 071 | Time  1323s | Train Loss 0.0897 | Val Loss 0.274 | Val Acc 92.10
+
+Epoch 072 | Time  1342s | Train Loss 0.0830 | Val Loss 0.310 | Val Acc 91.40
+
+Epoch 073 | Time  1360s | Train Loss 0.0725 | Val Loss 0.295 | Val Acc 91.40
+
+Epoch 074 | Time  1379s | Train Loss 0.0545 | Val Loss 0.303 | Val Acc 92.00
+
+Epoch 075 | Time  1398s | Train Loss 0.0710 | Val Loss 0.291 | Val Acc 92.30
+
+Epoch 076 | Time  1417s | Train Loss 0.0443 | Val Loss 0.273 | Val Acc 92.40
+
+Epoch 077 | Time  1436s | Train Loss 0.0312 | Val Loss 0.261 | Val Acc 92.90
+
+Epoch 078 | Time  1455s | Train Loss 0.0299 | Val Loss 0.284 | Val Acc 92.10
+
+Epoch 079 | Time  1473s | Train Loss 0.0398 | Val Loss 0.257 | Val Acc 92.80
+
+Epoch 080 | Time  1492s | Train Loss 0.0343 | Val Loss 0.256 | Val Acc 92.60
+
+Epoch 081 | Time  1511s | Train Loss 0.0284 | Val Loss 0.205 | Val Acc 93.10
+
+Epoch 082 | Time  1530s | Train Loss 0.0245 | Val Loss 0.214 | Val Acc 94.00
+
+Epoch 083 | Time  1549s | Train Loss 0.0130 | Val Loss 0.215 | Val Acc 93.50
+
+Epoch 084 | Time  1568s | Train Loss 0.0091 | Val Loss 0.220 | Val Acc 94.10
+
+Epoch 085 | Time  1587s | Train Loss 0.0058 | Val Loss 0.220 | Val Acc 94.50
+
+Epoch 086 | Time  1606s | Train Loss 0.0048 | Val Loss 0.214 | Val Acc 93.90
+
+Epoch 087 | Time  1624s | Train Loss 0.0039 | Val Loss 0.203 | Val Acc 94.40
+
+Epoch 088 | Time  1643s | Train Loss 0.0041 | Val Loss 0.213 | Val Acc 94.10
+
+Epoch 089 | Time  1662s | Train Loss 0.0037 | Val Loss 0.198 | Val Acc 94.40
+
+Epoch 090 | Time  1681s | Train Loss 0.0068 | Val Loss 0.199 | Val Acc 94.20
+
+Epoch 091 | Time  1699s | Train Loss 0.0032 | Val Loss 0.197 | Val Acc 94.30
+
+Epoch 092 | Time  1718s | Train Loss 0.0027 | Val Loss 0.194 | Val Acc 94.40
+
+Epoch 093 | Time  1737s | Train Loss 0.0033 | Val Loss 0.191 | Val Acc 94.50
+
+Epoch 094 | Time  1756s | Train Loss 0.0023 | Val Loss 0.194 | Val Acc 94.50
+
+Epoch 095 | Time  1774s | Train Loss 0.0036 | Val Loss 0.192 | Val Acc 95.00
+
+Epoch 096 | Time  1793s | Train Loss 0.0033 | Val Loss 0.190 | Val Acc 94.50
+
+Epoch 097 | Time  1811s | Train Loss 0.0037 | Val Loss 0.194 | Val Acc 94.50
+
+Epoch 098 | Time  1830s | Train Loss 0.0035 | Val Loss 0.192 | Val Acc 94.70
+
+Epoch 099 | Time  1849s | Train Loss 0.0023 | Val Loss 0.193 | Val Acc 94.80
+
+Epoch 100 | Time  1867s | Train Loss 0.0022 | Val Loss 0.192 | Val Acc 94.90
+Training Completed! Best accuracy: 95.00 at epoch 95
+──────────────────────────────────────────────────────────────────────
+Start testing...
+
+Complete Evaluation, Last accuracy 94.62
+Completed!

@@ -1,0 +1,228 @@
+!!python/object/new:openood.utils.config.Config
+state:
+  dataset:
+    name: cifar10
+    num_classes: 10
+    pre_size: 32
+    image_size: 32
+    interpolation: bilinear
+    normalization_type: cifar10
+    num_workers: 4
+    num_gpus: 1
+    num_machines: 1
+    split_names: &id001
+    - train
+    - val
+    - test
+    train:
+      dataset_class: ImglistDataset
+      data_dir: ./data/images_classic/
+      imglist_pth: ./data/benchmark_imglist/cifar10/train_cifar10.txt
+      batch_size: 128
+      shuffle: true
+    val:
+      dataset_class: ImglistDataset
+      data_dir: ./data/images_classic/
+      imglist_pth: ./data/benchmark_imglist/cifar10/val_cifar10.txt
+      batch_size: 200
+      shuffle: false
+    test:
+      dataset_class: ImglistDataset
+      data_dir: ./data/images_classic/
+      imglist_pth: ./data/benchmark_imglist/cifar10/test_cifar10.txt
+      batch_size: 200
+      shuffle: false
+  preprocessor:
+    name: base
+    randaugment:
+      enable: false
+      n: 1
+      m: 6
+  network:
+    name: resnet18_32x32
+    num_classes: 10
+    pretrained: false
+    checkpoint: ./results/cifar10_double_label_resnet18_32x32_mos_e100_lr0.003/best.ckpt
+    num_gpus: 1
+  exp_name: cifar10_resnet18_32x32_base_e100_lr0.1_default/s1
+  output_dir: ./results/cifar10_resnet18_32x32_base_e100_lr0.1_default/s1
+  save_output: true
+  merge_option: default
+  mark: default
+  seed: 1
+  num_gpus: 1
+  num_workers: 4
+  num_machines: 1
+  machine_rank: 0
+  pipeline:
+    name: train
+  trainer:
+    name: base
+  evaluator:
+    name: base
+  optimizer:
+    name: sgd
+    num_epochs: 100
+    lr: 0.1
+    momentum: 0.9
+    weight_decay: 0.0005
+  recorder:
+    name: base
+    save_all_models: false
+dictitems:
+  dataset: !!python/object/new:openood.utils.config.Config
+    state:
+      name: cifar10
+      num_classes: 10
+      pre_size: 32
+      image_size: 32
+      interpolation: bilinear
+      normalization_type: cifar10
+      num_workers: 4
+      num_gpus: 1
+      num_machines: 1
+      split_names: *id001
+      train:
+        dataset_class: ImglistDataset
+        data_dir: ./data/images_classic/
+        imglist_pth: ./data/benchmark_imglist/cifar10/train_cifar10.txt
+        batch_size: 128
+        shuffle: true
+      val:
+        dataset_class: ImglistDataset
+        data_dir: ./data/images_classic/
+        imglist_pth: ./data/benchmark_imglist/cifar10/val_cifar10.txt
+        batch_size: 200
+        shuffle: false
+      test:
+        dataset_class: ImglistDataset
+        data_dir: ./data/images_classic/
+        imglist_pth: ./data/benchmark_imglist/cifar10/test_cifar10.txt
+        batch_size: 200
+        shuffle: false
+    dictitems:
+      name: cifar10
+      num_classes: 10
+      pre_size: 32
+      image_size: 32
+      interpolation: bilinear
+      normalization_type: cifar10
+      num_workers: 4
+      num_gpus: 1
+      num_machines: 1
+      split_names: *id001
+      train: !!python/object/new:openood.utils.config.Config
+        state:
+          dataset_class: ImglistDataset
+          data_dir: ./data/images_classic/
+          imglist_pth: ./data/benchmark_imglist/cifar10/train_cifar10.txt
+          batch_size: 128
+          shuffle: true
+        dictitems:
+          dataset_class: ImglistDataset
+          data_dir: ./data/images_classic/
+          imglist_pth: ./data/benchmark_imglist/cifar10/train_cifar10.txt
+          batch_size: 128
+          shuffle: true
+      val: !!python/object/new:openood.utils.config.Config
+        state:
+          dataset_class: ImglistDataset
+          data_dir: ./data/images_classic/
+          imglist_pth: ./data/benchmark_imglist/cifar10/val_cifar10.txt
+          batch_size: 200
+          shuffle: false
+        dictitems:
+          dataset_class: ImglistDataset
+          data_dir: ./data/images_classic/
+          imglist_pth: ./data/benchmark_imglist/cifar10/val_cifar10.txt
+          batch_size: 200
+          shuffle: false
+      test: !!python/object/new:openood.utils.config.Config
+        state:
+          dataset_class: ImglistDataset
+          data_dir: ./data/images_classic/
+          imglist_pth: ./data/benchmark_imglist/cifar10/test_cifar10.txt
+          batch_size: 200
+          shuffle: false
+        dictitems:
+          dataset_class: ImglistDataset
+          data_dir: ./data/images_classic/
+          imglist_pth: ./data/benchmark_imglist/cifar10/test_cifar10.txt
+          batch_size: 200
+          shuffle: false
+  preprocessor: !!python/object/new:openood.utils.config.Config
+    state:
+      name: base
+      randaugment:
+        enable: false
+        n: 1
+        m: 6
+    dictitems:
+      name: base
+      randaugment: !!python/object/new:openood.utils.config.Config
+        state:
+          enable: false
+          n: 1
+          m: 6
+        dictitems:
+          enable: false
+          n: 1
+          m: 6
+  network: !!python/object/new:openood.utils.config.Config
+    state:
+      name: resnet18_32x32
+      num_classes: 10
+      pretrained: false
+      checkpoint: ./results/cifar10_double_label_resnet18_32x32_mos_e100_lr0.003/best.ckpt
+      num_gpus: 1
+    dictitems:
+      name: resnet18_32x32
+      num_classes: 10
+      pretrained: false
+      checkpoint: ./results/cifar10_double_label_resnet18_32x32_mos_e100_lr0.003/best.ckpt
+      num_gpus: 1
+  exp_name: cifar10_resnet18_32x32_base_e100_lr0.1_default/s1
+  output_dir: ./results/cifar10_resnet18_32x32_base_e100_lr0.1_default/s1
+  save_output: true
+  merge_option: default
+  mark: default
+  seed: 1
+  num_gpus: 1
+  num_workers: 4
+  num_machines: 1
+  machine_rank: 0
+  pipeline: !!python/object/new:openood.utils.config.Config
+    state:
+      name: train
+    dictitems:
+      name: train
+  trainer: !!python/object/new:openood.utils.config.Config
+    state:
+      name: base
+    dictitems:
+      name: base
+  evaluator: !!python/object/new:openood.utils.config.Config
+    state:
+      name: base
+    dictitems:
+      name: base
+  optimizer: !!python/object/new:openood.utils.config.Config
+    state:
+      name: sgd
+      num_epochs: 100
+      lr: 0.1
+      momentum: 0.9
+      weight_decay: 0.0005
+    dictitems:
+      name: sgd
+      num_epochs: 100
+      lr: 0.1
+      momentum: 0.9
+      weight_decay: 0.0005
+  recorder: !!python/object/new:openood.utils.config.Config
+    state:
+      name: base
+      save_all_models: false
+    dictitems:
+      name: base
+      save_all_models: false

@@ -1,0 +1,211 @@
+!!python/object/new:openood.utils.config.Config
+state:
+  dataset:
+    name: imagenet200
+    num_classes: 200
+    pre_size: 256
+    image_size: 224
+    interpolation: bilinear
+    normalization_type: imagenet
+    num_workers: 16
+    num_gpus: 2
+    num_machines: 1
+    split_names: &id001
+    - train
+    - val
+    - test
+    train:
+      dataset_class: ImglistDataset
+      data_dir: ./data/images_largescale/
+      imglist_pth: ./data/benchmark_imglist/imagenet200/train_imagenet200.txt
+      batch_size: 128
+      shuffle: true
+    val:
+      dataset_class: ImglistDataset
+      data_dir: ./data/images_largescale/
+      imglist_pth: ./data/benchmark_imglist/imagenet200/val_imagenet200.txt
+      batch_size: 256
+      shuffle: false
+    test:
+      dataset_class: ImglistDataset
+      data_dir: ./data/images_largescale/
+      imglist_pth: ./data/benchmark_imglist/imagenet200/test_imagenet200.txt
+      batch_size: 256
+      shuffle: false
+  network:
+    name: resnet18_224x224
+    num_classes: 200
+    pretrained: false
+    checkpoint: none
+    num_gpus: 2
+  exp_name: imagenet200_resnet18_224x224_base_e90_lr0.1_default/s1
+  output_dir: ./results/imagenet200_resnet18_224x224_base_e90_lr0.1_default/s1
+  save_output: true
+  merge_option: merge
+  mark: default
+  seed: 1
+  num_gpus: 2
+  num_workers: 16
+  num_machines: 1
+  machine_rank: 0
+  preprocessor:
+    name: base
+  pipeline:
+    name: train
+  trainer:
+    name: base
+  evaluator:
+    name: base
+  optimizer:
+    name: sgd
+    num_epochs: 90
+    lr: 0.1
+    momentum: 0.9
+    weight_decay: 0.0005
+  recorder:
+    name: base
+    save_all_models: false
+dictitems:
+  dataset: !!python/object/new:openood.utils.config.Config
+    state:
+      name: imagenet200
+      num_classes: 200
+      pre_size: 256
+      image_size: 224
+      interpolation: bilinear
+      normalization_type: imagenet
+      num_workers: 16
+      num_gpus: 2
+      num_machines: 1
+      split_names: *id001
+      train:
+        dataset_class: ImglistDataset
+        data_dir: ./data/images_largescale/
+        imglist_pth: ./data/benchmark_imglist/imagenet200/train_imagenet200.txt
+        batch_size: 128
+        shuffle: true
+      val:
+        dataset_class: ImglistDataset
+        data_dir: ./data/images_largescale/
+        imglist_pth: ./data/benchmark_imglist/imagenet200/val_imagenet200.txt
+        batch_size: 256
+        shuffle: false
+      test:
+        dataset_class: ImglistDataset
+        data_dir: ./data/images_largescale/
+        imglist_pth: ./data/benchmark_imglist/imagenet200/test_imagenet200.txt
+        batch_size: 256
+        shuffle: false
+    dictitems:
+      name: imagenet200
+      num_classes: 200
+      pre_size: 256
+      image_size: 224
+      interpolation: bilinear
+      normalization_type: imagenet
+      num_workers: 16
+      num_gpus: 2
+      num_machines: 1
+      split_names: *id001
+      train: !!python/object/new:openood.utils.config.Config
+        state:
+          dataset_class: ImglistDataset
+          data_dir: ./data/images_largescale/
+          imglist_pth: ./data/benchmark_imglist/imagenet200/train_imagenet200.txt
+          batch_size: 128
+          shuffle: true
+        dictitems:
+          dataset_class: ImglistDataset
+          data_dir: ./data/images_largescale/
+          imglist_pth: ./data/benchmark_imglist/imagenet200/train_imagenet200.txt
+          batch_size: 128
+          shuffle: true
+      val: !!python/object/new:openood.utils.config.Config
+        state:
+          dataset_class: ImglistDataset
+          data_dir: ./data/images_largescale/
+          imglist_pth: ./data/benchmark_imglist/imagenet200/val_imagenet200.txt
+          batch_size: 256
+          shuffle: false
+        dictitems:
+          dataset_class: ImglistDataset
+          data_dir: ./data/images_largescale/
+          imglist_pth: ./data/benchmark_imglist/imagenet200/val_imagenet200.txt
+          batch_size: 256
+          shuffle: false
+      test: !!python/object/new:openood.utils.config.Config
+        state:
+          dataset_class: ImglistDataset
+          data_dir: ./data/images_largescale/
+          imglist_pth: ./data/benchmark_imglist/imagenet200/test_imagenet200.txt
+          batch_size: 256
+          shuffle: false
+        dictitems:
+          dataset_class: ImglistDataset
+          data_dir: ./data/images_largescale/
+          imglist_pth: ./data/benchmark_imglist/imagenet200/test_imagenet200.txt
+          batch_size: 256
+          shuffle: false
+  network: !!python/object/new:openood.utils.config.Config
+    state:
+      name: resnet18_224x224
+      num_classes: 200
+      pretrained: false
+      checkpoint: none
+      num_gpus: 2
+    dictitems:
+      name: resnet18_224x224
+      num_classes: 200
+      pretrained: false
+      checkpoint: none
+      num_gpus: 2
+  exp_name: imagenet200_resnet18_224x224_base_e90_lr0.1_default/s1
+  output_dir: ./results/imagenet200_resnet18_224x224_base_e90_lr0.1_default/s1
+  save_output: true
+  merge_option: merge
+  mark: default
+  seed: 1
+  num_gpus: 2
+  num_workers: 16
+  num_machines: 1
+  machine_rank: 0
+  preprocessor: !!python/object/new:openood.utils.config.Config
+    state:
+      name: base
+    dictitems:
+      name: base
+  pipeline: !!python/object/new:openood.utils.config.Config
+    state:
+      name: train
+    dictitems:
+      name: train
+  trainer: !!python/object/new:openood.utils.config.Config
+    state:
+      name: base
+    dictitems:
+      name: base
+  evaluator: !!python/object/new:openood.utils.config.Config
+    state:
+      name: base
+    dictitems:
+      name: base
+  optimizer: !!python/object/new:openood.utils.config.Config
+    state:
+      name: sgd
+      num_epochs: 90
+      lr: 0.1
+      momentum: 0.9
+      weight_decay: 0.0005
+    dictitems:
+      name: sgd
+      num_epochs: 90
+      lr: 0.1
+      momentum: 0.9
+      weight_decay: 0.0005
+  recorder: !!python/object/new:openood.utils.config.Config
+    state:
+      name: base
+      save_all_models: false
+    dictitems:
+      name: base
+      save_all_models: false
