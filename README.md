@@ -55,7 +55,7 @@ python scripts/eval_ood_imagenet.py \
 ```
 
 You can download the model file from [Google Drive](https://drive.google.com/file/d/1EQimcdbJsKdU2uw4-BrqZO6tu4kXKtbG/view?usp=drive_link).
-We will release the training code soon.
+For the training code, please refer to [OpenOOD](https://github.com/Jingkang50/OpenOOD). 
 
 ## Acknowledgment
 
