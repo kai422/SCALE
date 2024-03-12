@@ -1,4 +1,4 @@
-name: openood_extra
+name: openood
 channels:
   - pytorch
   - conda-forge
