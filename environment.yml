@@ -1,9 +1,10 @@
-name: openood
+name: openood_extra
 channels:
   - pytorch
   - conda-forge
   - defaults
 dependencies:
+  - cython
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_kmp_llvm
   - asttokens=2.2.1=pyhd8ed1ab_0
@@ -110,6 +111,7 @@ dependencies:
   - zlib=1.2.13=hd590300_5
   - zstd=1.4.9=ha95c52a_0
   - pip:
+    - torch==2.0.1
     - absl-py==1.4.0
     - addict==2.4.0
     - beautifulsoup4==4.12.2
@@ -187,8 +189,6 @@ dependencies:
     - tifffile==2023.4.12
     - timm==0.9.2
     - tomli==2.0.1
-    - torch==2.0.1
-    - torchlars==0.1.2
     - torchvision==0.15.2
     - triton==2.0.0
     - urllib3==1.26.16
